@@ -1,0 +1,30 @@
+= bib-1
+
+1301601.jpg
+
+level1: 13
+level2: 01
+
+git://bib-1/13/01/1301601.jpg
+
+'''
+= reference
+
+
+https://www.smashingmagazine.com/2015/06/efficient-image-resizing-with-imagemagick/[Efficient Image Resizing With ImageMagick — Smashing Magazine]
+
+https://www.linuxjournal.com/content/resizing-images-imagemagick[Resizing Images with ImageMagick | Linux Journal]
+
+https://publishdrive.com/book-cover-sizes/[Complete Guide to Book Cover Sizes - Why Do They Matter?]
+
+http://www.ebookcoversize.com/[Ebook Cover Size Specifications & Requirements - Ebook cover sizes]
+
+https://kdp.amazon.com/en_US/help/topic/G200645690[Create an eBook Cover | Amazon Kindle Direct Publishing]
+
+https://unix.stackexchange.com/questions/196399/how-to-batch-resize-all-images-in-a-folder-including-subfolders[linux - How to batch resize all images in a folder (including subfolders)? - Unix & Linux Stack Exchange]
+
+[source,shell]
+----
+$ mogrify -resize x200 *.jpg
+find . -name '*.jpg' -execdir mogrify -resize x200 {} \;
+----
