@@ -7,6 +7,11 @@ level2: 01
 
 git://bib-1/13/01/1301601.jpg
 
+
+https://raw.githack.com/YMLIB/bib-1/master/13/01/1301601.jpg
+
+https://raw.githubusercontent.com/YMLIB/bib-1/master/13/01/1301601.jpg
+
 '''
 = reference
 
